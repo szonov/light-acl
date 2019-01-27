@@ -1,6 +1,6 @@
 <?php namespace SZonov\LightAcl;
 
-class Acl
+class Acl implements AclInterface
 {
     protected $_defaultAccess = true;
     protected $_rolesNames = [];
